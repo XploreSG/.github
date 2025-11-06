@@ -1,12 +1,9 @@
-## Hi there 👋
+## Explore Singapore, Your Way! 
 
-<!--
+<img width="1579" height="428" alt="image" src="https://github.com/user-attachments/assets/3c6a4d23-91fb-49e2-b8f9-8aa4aa23d138" />
 
-**Here are some ideas to get you started:**
+The ExploreSG platform is more than just an application; it's a scalable, resilient, and secure ecosystem. To achieve this, we built our organization on an industrial-grade foundation that prioritizes stability and clear ownership.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+We adopted a polyrepo strategy, treating each microservice as an independent, testable, and replaceable component. This separation isn't just for tidiness—it's a deliberate design choice that isolates failure domains and simplifies security auditing.
+
+All of this is anchored by our meta-repository (exploresg). This is the single source of truth for our entire infrastructure, housing the Terraform code and GitOps manifests that define our production environment. This structure gives us push-button infrastructure, repeatable deployments, and the power to roll back changes with surgical precision
